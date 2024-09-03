@@ -1,0 +1,123 @@
+*{margin: 0px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+.caja1{
+    background-color: blue;
+    width:300px;
+    height: 150px;
+    position: fixed; /*fijo respecto al navegador*/
+    top: 100px;
+    left: 500px;
+}
+.caja2{
+    background-color: yellow;
+    width: 800px;
+    height: 100px;
+    position: fixed; 
+    top: 170px;
+    left: 270px;
+    border-radius: 100%;
+    
+}
+.caja3{
+    background-color: red;
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    top: 200px;
+    left: 430px;
+    border-radius: 100%;
+}
+.caja4{
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.caja5{
+    background-color: deeppink;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+}
+.caja3hijo{
+    background-color: rgb(40, 219, 16);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    border-radius:50px; 
+}
+.caja4hijo{
+    background-color: rgb(40, 219, 16);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    border-radius:50px; 
+}
+.caja5hijo{
+    background-color: rgb(40, 219, 16);
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    top: 278px;
+    left: 100px;
+    border-radius:90%; 
+}
+.caja5padre{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    border-radius:50%; 
+}
+.caja3padre{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius:50px; 
+}
+.corbata{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    position: absolute; 
+    top: 425px;
+    left: 20px;
+    border-radius: 100%;
+}
+.corbatamid{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 70px;
+    position: absolute; 
+    top: 410px;
+    left: 180px;
+    border-radius: 100%;
+}
+.corbataleft{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    position: absolute; 
+    top: 425px;
+    left: 250px;
+    border-radius: 100%;
+    
+#p{
+    text-align: center;
+}
